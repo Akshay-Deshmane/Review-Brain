@@ -4,14 +4,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev" : "npx nodemon server.js",
-    "start" : "node server.js"
+    "dev": "npx nodemon server.js",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@google/genai": "^1.48.0",
     "dotenv": "^17.4.0",
     "express": "^5.2.1"
   }
