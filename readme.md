@@ -25,14 +25,14 @@ By using AI, ReviewBrain ensures **instant, scalable, and structured code review
 
 ## Features =>
 
-1.AI-powered code review system
-2.Structured feedback (Issues, Fix, Improvements)
-3.Syntax-highlighted code editor
-4.Markdown-rendered AI responses
-5.Fast API-based analysis using Axios
-6.Rate limiting for API protection
-7.Clean split-screen developer UI
-8.Role-based AI (Senior Developer Simulation)
+* AI-powered code review system
+* Structured feedback (Issues, Fix, Improvements)
+* Syntax-highlighted code editor
+* Markdown-rendered AI responses
+* Fast API-based analysis using Axios
+* Rate limiting for API protection
+* Clean split-screen developer UI
+* Role-based AI (Senior Developer Simulation)
 
 ---
 
@@ -292,11 +292,11 @@ function sum() {
 
 ## Future Enhancements / Future Scope =>
 
-1.Authentication (JWT / OAuth)
-2.Multi-language support
-3.Code quality scoring system
-4.Save review history
-5.Real-time AI streaming
-6.GitHub PR auto-review integration
-7.Custom review modes (Beginner / Advanced)
-8.Deployment (Docker + Cloud)
+* Authentication (JWT / OAuth)
+* Multi-language support
+* Code quality scoring system
+* Save review history
+* Real-time AI streaming
+* GitHub PR auto-review integration
+* Custom review modes (Beginner / Advanced)
+* Deployment (Docker + Cloud)
