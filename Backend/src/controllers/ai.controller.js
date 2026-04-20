@@ -9,10 +9,14 @@ async function getReview (req, res){
             message : "please send the prompt in the input"
         })
     }
-
+    
+    try{
     const response = await aiService(code);
-
-    res.send(response);
+    res.send(response);;
+    }
+    catch(error) {
+        return res.send(`Error Occured ${error.message}`);
+    }
 };
 
 
